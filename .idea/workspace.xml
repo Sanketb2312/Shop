@@ -19,14 +19,19 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="992849d9-3576-47ab-9d4a-9509500906ed" name="Default Changelist" comment="pom.xml bug fixed">
-      <change beforePath="$PROJECT_DIR$/.gitpod.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/.gitpod.Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitpod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitpod.yml" afterDir="false" />
+    <list default="true" id="992849d9-3576-47ab-9d4a-9509500906ed" name="Default Changelist" comment="gitpod.yml and Dockerfile bug fixed">
+      <change afterPath="$PROJECT_DIR$/onlinestore/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/onlineStore-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/onlineStore-0.0.1-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +46,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -75,21 +85,68 @@
     <option name="myCommands">
       <command value="mvn compile" />
       <command value="mvn archetype:generate" />
-      <command value="mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4" />
       <command value="mvn install" />
+      <command value="mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4" />
     </option>
   </component>
   <component name="RunManager" selected="Application.Laptop">
     <configuration name="Items" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Items" />
-      <module name="onlineStore" />
+      <module name="onlinestore" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Laptop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Laptop" />
-      <module name="onlineStore" />
+      <module name="onlinestore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="onlinestore" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="onlinestore" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607174759610</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="gitpod.yml and Dockerfile bug fixed">
+      <created>1607269560671</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607269560671</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,39 +210,53 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Maven project build success" />
     <MESSAGE value="pom.xml bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom.xml bug fixed" />
+    <MESSAGE value="gitpod.yml and Dockerfile bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitpod.yml and Dockerfile bug fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="31" key="#Project_Structure" timestamp="1606997803685">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1606997803685" />
-    <state width="1398" height="341" key="GridCell.Tab.0.bottom" timestamp="1607269530985">
+    <state width="1398" height="341" key="GridCell.Tab.0.bottom" timestamp="1607272430932">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="341" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607269530985" />
-    <state width="1398" height="341" key="GridCell.Tab.0.center" timestamp="1607269530983">
+    <state width="1398" height="341" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607272430932" />
+    <state width="1398" height="341" key="GridCell.Tab.0.center" timestamp="1607272430930">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="341" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607269530983" />
-    <state width="1398" height="341" key="GridCell.Tab.0.left" timestamp="1607269530982">
+    <state width="1398" height="341" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607272430930" />
+    <state width="1398" height="341" key="GridCell.Tab.0.left" timestamp="1607272430929">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="341" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607269530982" />
-    <state width="1398" height="341" key="GridCell.Tab.0.right" timestamp="1607269530984">
+    <state width="1398" height="341" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607272430929" />
+    <state width="1398" height="341" key="GridCell.Tab.0.right" timestamp="1607272430931">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="341" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607269530984" />
+    <state width="1398" height="341" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607272430931" />
     <state x="308" y="200" key="IDE.errors.dialog" timestamp="1606998120049">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -195,17 +273,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606997928755" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607174764498">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607269565249">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607174764498" />
-    <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607269358184">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607269565249" />
+    <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607270694397">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1607269358184" />
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1607269530937">
+    <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1607270694397" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1607269850292">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1607269530937" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1607269850292" />
   </component>
 </project>

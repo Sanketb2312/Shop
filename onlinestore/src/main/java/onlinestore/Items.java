@@ -1,3 +1,5 @@
+package onlinestore;
+
 public class Items {
 
   private String category;

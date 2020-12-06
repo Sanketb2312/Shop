@@ -1,3 +1,5 @@
+package onlinestore;
+
 public class Laptop extends ElectronicDevices{
 
   private String brand;
