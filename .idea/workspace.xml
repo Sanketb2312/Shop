@@ -23,9 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="992849d9-3576-47ab-9d4a-9509500906ed" name="Default Changelist" comment="pom.xml bug fixed">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitpod.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/.gitpod.Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitpod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitpod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/onlineStore-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/onlineStore-0.0.1-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1l987oufVfiFsGdbXdPeOUqQvJN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,6 +62,7 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -69,6 +74,8 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn compile" />
+      <command value="mvn archetype:generate" />
+      <command value="mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4" />
       <command value="mvn install" />
     </option>
   </component>
@@ -117,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607003878601</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pom.xml bug fixed">
+      <created>1607174727343</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607174727343</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pom.xml bug fixed">
+      <created>1607174759610</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607174759610</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +153,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Maven project build success" />
     <MESSAGE value="pom.xml bug fixed" />
     <option name="LAST_COMMIT_MESSAGE" value="pom.xml bug fixed" />
@@ -141,41 +163,49 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1606997803685" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1607118902981">
+    <state width="1398" height="341" key="GridCell.Tab.0.bottom" timestamp="1607269530985">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607118902981" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1607118902977">
+    <state width="1398" height="341" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607269530985" />
+    <state width="1398" height="341" key="GridCell.Tab.0.center" timestamp="1607269530983">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607118902977" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1607118902975">
+    <state width="1398" height="341" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607269530983" />
+    <state width="1398" height="341" key="GridCell.Tab.0.left" timestamp="1607269530982">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607118902975" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1607118902980">
+    <state width="1398" height="341" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607269530982" />
+    <state width="1398" height="341" key="GridCell.Tab.0.right" timestamp="1607269530984">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607118902980" />
+    <state width="1398" height="341" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607269530984" />
     <state x="308" y="200" key="IDE.errors.dialog" timestamp="1606998120049">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="308" y="200" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1606998120049" />
+    <state x="144" y="79" key="MergeDialog" timestamp="1607174807396">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="144" y="79" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1607174807396" />
+    <state x="361" y="218" key="MultipleFileMergeDialog" timestamp="1607174807429">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="361" y="218" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1607174807429" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1606997928755">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606997928755" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607003883631">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607174764498">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607003883631" />
-    <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607174708926">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607174764498" />
+    <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607269358184">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1607174708926" />
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1607118407602">
+    <state x="533" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1607269358184" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1607269530937">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1607118407601" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1607269530937" />
   </component>
 </project>
