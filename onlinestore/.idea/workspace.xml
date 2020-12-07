@@ -25,14 +25,21 @@
         <item name="GROUP_NODE:Sanketb2312" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/Implement-ElectronicDevices-class" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87809d9-5863-49c9-9284-ed41782f12a7" name="Default Changelist" comment="pom.xml extended for junit5/jupter">
+    <list default="true" id="b87809d9-5863-49c9-9284-ed41782f12a7" name="Default Changelist" comment="extending logic for app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onlinestore/ElectronicDevices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/ElectronicDevices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onlinestore/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/Items.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onlinestore/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onlinestore/ElectronicDevices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/core/ElectronicDevices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onlinestore/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/core/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onlinestore/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/core/Laptop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +54,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
@@ -82,7 +94,7 @@
       <module name="onlinestore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="onlinestore.*" />
+          <option name="PATTERN" value="onlinestore.core.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,7 +109,7 @@
       <module name="onlinestore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="onlinestore.*" />
+          <option name="PATTERN" value="onlinestore.core.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607273661178</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="extending logic for app">
+      <created>1607302373303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607302373303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,7 +159,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Implement-ElectronicDevices-class" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -148,32 +179,41 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pom.xml extended for junit5/jupter" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom.xml extended for junit5/jupter" />
+    <MESSAGE value="extending logic for app" />
+    <option name="LAST_COMMIT_MESSAGE" value="extending logic for app" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1607273648193">
+    <state x="478" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607302683393">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607273648193" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1607273648191">
+    <state x="478" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1607302683393" />
+    <state x="370" y="381" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607302795950">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607273648191" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1607273648190">
+    <state x="370" y="381" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1607302795950" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1607302476290">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607273648190" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1607273648192">
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607302476290" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1607302476288">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607273648192" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607273666168">
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607302476288" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1607302476286">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607273666168" />
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1607273648138">
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607302476286" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1607302476289">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1607273648138" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607302476289" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607302377438">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607302377438" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1607302344927">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1607302344927" />
   </component>
 </project>
