@@ -29,36 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b87809d9-5863-49c9-9284-ed41782f12a7" name="Default Changelist" comment="pom.xml extended for junit5/jupter">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlinestore.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/onlinestore/testingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ElectronicDevices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/ElectronicDevices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/Items.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/Laptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ElectronicDevices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Items.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Laptop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/onlinestore-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/onlinestore-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onlinestore/ElectronicDevices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/ElectronicDevices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onlinestore/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onlinestore/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/Laptop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +125,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607272525000</updated>
     </task>
+    <task id="LOCAL-00001" summary="pom.xml extended for junit5/jupter">
+      <created>1607273661177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607273661178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,25 +151,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="pom.xml extended for junit5/jupter" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1607273585722">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1607273648193">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607273585722" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1607273585719">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607273648193" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1607273648191">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607273585719" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1607273585718">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607273648191" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1607273648190">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607273585718" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1607273585721">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607273648190" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1607273648192">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607273585721" />
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1607273545104">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607273648192" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607273666168">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1607273545104" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607273666168" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1607273648138">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1607273648138" />
   </component>
 </project>
