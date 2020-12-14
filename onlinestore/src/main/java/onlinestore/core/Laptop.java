@@ -11,8 +11,8 @@ public class Laptop extends ElectronicDevices {
   private int SSD_SPACE;
   private Collection<Laptop> laptops = new ArrayList<>();
 
-  public Laptop(String category, String brand, int RAM_SPACE, int SSD_SPACE) {
-    super(category);
+  public Laptop(String category, String brand, String itemName,int RAM_SPACE, int SSD_SPACE) {
+    super(category, itemName, brand);
     this.brand = brand;
     this.RAM_SPACE = RAM_SPACE;
     this.SSD_SPACE = SSD_SPACE;
