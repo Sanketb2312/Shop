@@ -1,4 +1,4 @@
-package onlinestore;
+package onlinestore.core;
 
 public class ElectronicDevices extends Items {
 
