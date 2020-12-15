@@ -16,7 +16,19 @@ public class Item {
     this.brand = brand;
   }
 
+  public String getCategory() {
+    return category;
+  }
+
+  public String getBrand() {
+    return brand;
+  }
+
+  public String getItemName() {
+    return itemName;
+  }
 }
+
 
 
 

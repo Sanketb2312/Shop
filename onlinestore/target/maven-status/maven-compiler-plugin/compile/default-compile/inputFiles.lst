@@ -1,3 +1,7 @@
-/Users/sanketbehera/Documents/Shop/onlinestore/src/main/java/onlinestore/ElectronicDevices.java
-/Users/sanketbehera/Documents/Shop/onlinestore/src/main/java/onlinestore/Laptop.java
-/Users/sanketbehera/Documents/Shop/onlinestore/src/main/java/onlinestore/Items.java
+/Users/sanketbehera/Documents/Shop/onlinestore/src/main/java/onlinestore/core/Item.java
+/Users/sanketbehera/Documents/Shop/onlinestore/src/main/java/onlinestore/core/User.java
+/Users/sanketbehera/Documents/Shop/onlinestore/src/main/java/onlinestore/json/OnlineStoreModule.java
+/Users/sanketbehera/Documents/Shop/onlinestore/src/main/java/onlinestore/core/ElectronicDevices.java
+/Users/sanketbehera/Documents/Shop/onlinestore/src/main/java/onlinestore/core/Laptop.java
+/Users/sanketbehera/Documents/Shop/onlinestore/src/main/java/onlinestore/json/ShoppingCartSerializer.java
+/Users/sanketbehera/Documents/Shop/onlinestore/src/main/java/onlinestore/core/ShoppingCart.java

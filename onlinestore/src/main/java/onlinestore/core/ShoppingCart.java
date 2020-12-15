@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
-public class ShoppingCart {
+public class ShoppingCart implements Iterable<Item>{
 
   private Collection<Item> items = new ArrayList<>();
 
@@ -23,4 +23,7 @@ public class ShoppingCart {
   }
 
 
+  @Override public Iterator<Item> iterator() {
+    return items.iterator();
+  }
 }
