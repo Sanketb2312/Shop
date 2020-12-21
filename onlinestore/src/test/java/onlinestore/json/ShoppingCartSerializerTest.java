@@ -30,8 +30,7 @@ public class ShoppingCartSerializerTest {
     shoppingCart.addItem(item1);
     shoppingCart.addItem(item2);
     try {
-      assertEquals(
-          "{\"shoppingCart\":[{\"category\":\"electronic\",\"itemName\":\"Macbook pro\",\"brand\":\"Apple\"},{\"category\":\"electronic\",\"itemName\":\"Surfacebook\",\"brand\":\"Microsoft\"}]}",
+      assertEquals("{\"shoppingCart\":[{\"category\":\"electronic\",\"itemname\":\"Macbook pro\",\"brand\":\"Apple\"},{\"category\":\"electronic\",\"itemname\":\"Surfacebook\",\"brand\":\"Microsoft\"}]}",
           mapper.writeValueAsString(shoppingCart));
     } catch (JsonProcessingException e) {
       fail();

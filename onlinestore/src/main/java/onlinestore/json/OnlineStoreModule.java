@@ -14,6 +14,9 @@ import onlinestore.core.ShoppingCart;
     public OnlineStoreModule() {
       //super(NAME, VERSION_UTIL.version());
       addSerializer(ShoppingCart.class, new ShoppingCartSerializer());
+      addSerializer(Item.class, new ItemSerializer());
+      addDeserializer(ShoppingCart.class, new ShoppingCartDeserializer());
+      addDeserializer(Item.class, new ItemDeserializer());
     }
 
    public static void main(String[] args){
@@ -21,11 +24,26 @@ import onlinestore.core.ShoppingCart;
      mapper.registerModule(new OnlineStoreModule());
      ShoppingCart shoppingCart = new ShoppingCart();
      Item item1 = new Item("electronic", "Macbook pro", "Apple");
-     Item item2 = new Item("electronic", "Surfacebook", "Microsoft");
+     //item1.setCategory("electronic");
+     //item1.setItemName("Macbook pro");
+     //item1.setBrand("Apple");
+     Item item2 = new Item("electronic", "Surfacebook" , "Microsoft");
+     //item2.setCategory("electronic");
+     //item2.setItemName("Surfacebook");
+     //item1.setBrand("Microsoft");
+
+
      shoppingCart.addItem(item1);
      shoppingCart.addItem(item2);
     try {
-      System.out.println(mapper.writeValueAsString(shoppingCart));
+      String json = mapper.writeValueAsString(shoppingCart);
+      ShoppingCart shoppingCart1 = mapper.readValue(json, ShoppingCart.class);
+      for(Item item : shoppingCart1){
+        System.out.println(item.getCategory());
+        System.out.println(item.getItemName());
+        System.out.println(item.getBrand());
+      }
+      System.out.println(shoppingCart1);
      } catch (JsonProcessingException e) {
        e.printStackTrace();
      }

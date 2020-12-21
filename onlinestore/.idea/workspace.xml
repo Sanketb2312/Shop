@@ -35,8 +35,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87809d9-5863-49c9-9284-ed41782f12a7" name="Default Changelist" comment="Json serialier for ShoppingCart implemented. Test for ShoppingCartSerializer is also implemented(#8)">
+    <list default="true" id="b87809d9-5863-49c9-9284-ed41782f12a7" name="Default Changelist" comment="workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/onlinestore/json/ItemDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onlinestore/json/ItemSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onlinestore/json/ShoppingCartDeserializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onlinestore/core/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/core/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onlinestore/json/OnlineStoreModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/json/OnlineStoreModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/onlinestore/json/ShoppingCartSerializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/onlinestore/json/ShoppingCartSerializerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +98,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingCartSerializerTest">
+  <component name="RunManager" selected="JUnit.ShoppingCartSerializerTest.testShoppingCartSerializer">
     <configuration name="OnlineStoreModule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="onlinestore.json.OnlineStoreModule" />
       <module name="onlinestore" />
@@ -166,10 +173,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShoppingCartSerializerTest" />
         <item itemvalue="JUnit.ShoppingCartSerializerTest.testShoppingCartSerializer" />
-        <item itemvalue="JUnit.ShoppingCartSerializer" />
         <item itemvalue="Application.OnlineStoreModule" />
+        <item itemvalue="JUnit.ShoppingCartSerializerTest" />
+        <item itemvalue="JUnit.ShoppingCartSerializer" />
         <item itemvalue="Application.User" />
       </list>
     </recent_temporary>
@@ -225,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608043572798</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="workspace.xml">
+      <created>1608051402513</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608051402513</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,17 +272,18 @@
     <MESSAGE value="User class implemented" />
     <MESSAGE value="ShoppingCart class implemented" />
     <MESSAGE value="Json serialier for ShoppingCart implemented. Test for ShoppingCartSerializer is also implemented(#8)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Json serialier for ShoppingCart implemented. Test for ShoppingCartSerializer is also implemented(#8)" />
+    <MESSAGE value="workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="478" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607302683393">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="478" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1607302683393" />
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1608038922686">
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1608556933700">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1608038922686" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1608556933700" />
     <state x="370" y="381" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607302795950">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -281,22 +296,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="148" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1607962985157" />
-    <state width="1398" height="266" key="GridCell.Tab.0.bottom" timestamp="1608043495172">
+    <state width="1398" height="330" key="GridCell.Tab.0.bottom" timestamp="1608560840524">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="266" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608043495172" />
-    <state width="1398" height="266" key="GridCell.Tab.0.center" timestamp="1608043495171">
+    <state width="1398" height="330" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608560840524" />
+    <state width="1398" height="330" key="GridCell.Tab.0.center" timestamp="1608560840521">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="266" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608043495171" />
-    <state width="1398" height="266" key="GridCell.Tab.0.left" timestamp="1608043495170">
+    <state width="1398" height="330" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608560840521" />
+    <state width="1398" height="330" key="GridCell.Tab.0.left" timestamp="1608560840520">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="266" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608043495170" />
-    <state width="1398" height="266" key="GridCell.Tab.0.right" timestamp="1608043495171">
+    <state width="1398" height="330" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608560840520" />
+    <state width="1398" height="330" key="GridCell.Tab.0.right" timestamp="1608560840523">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="266" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608043495171" />
+    <state width="1398" height="330" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608560840523" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1607358860545">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -313,13 +328,21 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607358860543" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608043589035">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608051406989">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608043589035" />
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1608043495122">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608051406989" />
+    <state x="567" y="228" key="refactoring.ChangeSignatureDialog" timestamp="1608559872744">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1608043495122" />
+    <state x="567" y="228" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1608559872744" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1608560797163">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1608560797163" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1608137935627">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1608137935627" />
   </component>
 </project>
