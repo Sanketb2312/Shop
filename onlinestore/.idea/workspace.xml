@@ -30,14 +30,20 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/Implement-ElectronicDevices-class" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/8-implement-JSON-for-filestorage" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87809d9-5863-49c9-9284-ed41782f12a7" name="Default Changelist" comment="classes added into core folder">
-      <change afterPath="$PROJECT_DIR$/src/main/java/onlinestore/core/User.java" afterDir="false" />
+    <list default="true" id="b87809d9-5863-49c9-9284-ed41782f12a7" name="Default Changelist" comment="workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/onlinestore/json/ItemDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onlinestore/json/ItemSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onlinestore/json/ShoppingCartDeserializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onlinestore/core/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/core/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onlinestore/json/OnlineStoreModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onlinestore/json/OnlineStoreModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/onlinestore/json/ShoppingCartSerializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/onlinestore/json/ShoppingCartSerializerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +60,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="main" />
+        <entry key="$PROJECT_DIR$/.." value="7-implement-core-logic" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -81,13 +87,31 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="onlinestore.core" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn test" />
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.User">
+  <component name="RunManager" selected="JUnit.ShoppingCartSerializerTest.testShoppingCartSerializer">
+    <configuration name="OnlineStoreModule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="onlinestore.json.OnlineStoreModule" />
+      <module name="onlinestore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="onlinestore.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="onlinestore.core.User" />
       <module name="onlinestore" />
@@ -101,32 +125,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingCartSerializer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="onlinestore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="onlinestore.core.core.*" />
+          <option name="PATTERN" value="onlinestore.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="onlinestore" />
-      <option name="MAIN_CLASS_NAME" value="onlinestore.testingTest" />
+      <option name="PACKAGE_NAME" value="onlinestore.json" />
+      <option name="MAIN_CLASS_NAME" value="onlinestore.json.ShoppingCartSerializer" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testingTest.testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingCartSerializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="onlinestore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="onlinestore.core.core.*" />
+          <option name="PATTERN" value="onlinestore.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="onlinestore" />
-      <option name="MAIN_CLASS_NAME" value="onlinestore.testingTest" />
-      <option name="METHOD_NAME" value="testing" />
+      <option name="PACKAGE_NAME" value="onlinestore.json" />
+      <option name="MAIN_CLASS_NAME" value="onlinestore.json.ShoppingCartSerializerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartSerializerTest.testShoppingCartSerializer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="onlinestore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="onlinestore.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="onlinestore.json" />
+      <option name="MAIN_CLASS_NAME" value="onlinestore.json.ShoppingCartSerializerTest" />
+      <option name="METHOD_NAME" value="testShoppingCartSerializer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,9 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoppingCartSerializerTest.testShoppingCartSerializer" />
+        <item itemvalue="Application.OnlineStoreModule" />
+        <item itemvalue="JUnit.ShoppingCartSerializerTest" />
+        <item itemvalue="JUnit.ShoppingCartSerializer" />
         <item itemvalue="Application.User" />
-        <item itemvalue="JUnit.testingTest" />
-        <item itemvalue="JUnit.testingTest.testing" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +211,35 @@
       <option name="project" value="LOCAL" />
       <updated>1607302831273</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="User class implemented">
+      <created>1607454608038</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607454608038</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ShoppingCart class implemented">
+      <created>1607986722110</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607986722110</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Json serialier for ShoppingCart implemented. Test for ShoppingCartSerializer is also implemented(#8)">
+      <created>1608043572798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608043572798</updated>
+    </task>
+    <task id="LOCAL-00007" summary="workspace.xml">
+      <created>1608051402513</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608051402513</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +253,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Implement-ElectronicDevices-class" />
+                        <option value="origin/8-implement-JSON-for-filestorage" />
                       </list>
                     </value>
                   </entry>
@@ -200,33 +269,49 @@
     <MESSAGE value="pom.xml extended for junit5/jupter" />
     <MESSAGE value="extending logic for app" />
     <MESSAGE value="classes added into core folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="classes added into core folder" />
+    <MESSAGE value="User class implemented" />
+    <MESSAGE value="ShoppingCart class implemented" />
+    <MESSAGE value="Json serialier for ShoppingCart implemented. Test for ShoppingCartSerializer is also implemented(#8)" />
+    <MESSAGE value="workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="478" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607302683393">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="478" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1607302683393" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1608556933700">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1608556933700" />
     <state x="370" y="381" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607302795950">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="370" y="381" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1607302795950" />
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom" timestamp="1607454465496">
+    <state x="505" y="326" width="430" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608042680326">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607454465496" />
-    <state width="1398" height="215" key="GridCell.Tab.0.center" timestamp="1607454465495">
+    <state x="505" y="326" width="430" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1608042680326" />
+    <state x="457" y="148" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607962985157">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607454465495" />
-    <state width="1398" height="215" key="GridCell.Tab.0.left" timestamp="1607454465494">
+    <state x="457" y="148" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1607962985157" />
+    <state width="1398" height="330" key="GridCell.Tab.0.bottom" timestamp="1608560840524">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607454465494" />
-    <state width="1398" height="215" key="GridCell.Tab.0.right" timestamp="1607454465495">
+    <state width="1398" height="330" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608560840524" />
+    <state width="1398" height="330" key="GridCell.Tab.0.center" timestamp="1608560840521">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607454465495" />
+    <state width="1398" height="330" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608560840521" />
+    <state width="1398" height="330" key="GridCell.Tab.0.left" timestamp="1608560840520">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608560840520" />
+    <state width="1398" height="330" key="GridCell.Tab.0.right" timestamp="1608560840523">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608560840523" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1607358860545">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -243,13 +328,21 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607358860543" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607302834528">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608051406989">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607302834528" />
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1607302344927">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608051406989" />
+    <state x="567" y="228" key="refactoring.ChangeSignatureDialog" timestamp="1608559872744">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1607302344927" />
+    <state x="567" y="228" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1608559872744" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1608560797163">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1608560797163" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1608137935627">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1608137935627" />
   </component>
 </project>

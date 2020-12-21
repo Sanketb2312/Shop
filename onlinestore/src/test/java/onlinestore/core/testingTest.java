@@ -1,4 +1,4 @@
-package onlinestore;
+package onlinestore.core;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,8 +6,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class testingTest {
 
-  @Test
-  public void testing(){
+  @Test public void testing() {
+
     assertTrue(true);
   }
 
