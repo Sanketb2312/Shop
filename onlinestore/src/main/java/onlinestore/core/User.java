@@ -23,7 +23,7 @@ public class User {
    *                 - minimum of 4 lettars
    *                 - followed by exactly 4 digits
    */
-  private void setUsername(String username) {
+  public void setUsername(String username) {
     if(checkValidUsername(username))
       this.username = username;
     else {
@@ -33,7 +33,7 @@ public class User {
 
   /**
    *
-   * @param firstName requires onlu lettars
+   * @param firstName requires only lettars
    */
   public void setFirstName(String firstName) {
     if(checkValidfirsName(firstName))
@@ -45,7 +45,7 @@ public class User {
 
   /**
    *
-   * @param familyName requires onlu lettars
+   * @param familyName requires only lettars
    */
   public void setFamilyName(String familyName) {
     if(checkValidFamilyname(familyName))
@@ -62,7 +62,7 @@ public class User {
    *                 - Minimum one digit
    *                 - Minimum length is 8
    */
-  private void setPassword(String password) {
+  public void setPassword(String password) {
     if (checkValidPassword(password))
       this.password = password;
     else {
@@ -107,8 +107,7 @@ public class User {
   }
 
   public static void main(String[] args) {
-    User user = new User("Heisann2312", "Sanket", "B", "bestePassord123");
-    System.out.println(user);
+    User user = new User("Olav2312", "Olav", "Nordmann", "bestePassord123");
   }
 
 }

@@ -1,2 +1,4 @@
+onlinestore/ui/OnlinestoreController.class
 onlinestore/core/ShoppingCart.class
+onlinestore/ui/OnlinestoreApp.class
 onlinestore/core/Item.class

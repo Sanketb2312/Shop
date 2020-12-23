@@ -4,6 +4,7 @@ package onlinestore.core;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.stream.Collectors;
 
 public class ShoppingCart implements Iterable<Item>{
 
@@ -22,8 +23,9 @@ public class ShoppingCart implements Iterable<Item>{
     return items;
   }
 
-
   @Override public Iterator<Item> iterator() {
     return items.iterator();
   }
+
+
 }
